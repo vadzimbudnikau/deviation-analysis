@@ -1,12 +1,12 @@
-#Deviation Analysis Project
+# Deviation Analysis Project
 This project aims to analyze deviations in floor vs. ceiling corners of a model and compare them with ground truth labels for room names and the number of corners in those rooms. It provides meaningful statistics to evaluate the performance of the model.
 
-##Requirements
+## Requirements
 Python 3.x
 Pandas
 Matplotlib
 
-##Installation
+## Installation
 1.Clone the repository:
 
 git clone https://github.com/vadzimbudnikau/deviation-analysis.git
@@ -21,7 +21,7 @@ source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
 
 pip install -r requirements.txt
 
-##Usage
+## Usage
 1.Ensure you have the required JSON file (deviation.json) in the project directory.
 2.Run the Jupyter Notebook to generate and visualize plots:
 
@@ -29,13 +29,13 @@ jupyter notebook Notebook.ipynb
 
 3.The notebook will guide you through the process and display the plots.
 
-##Plots
+## Plots
 The generated plots will be saved in the "plots" folder, and their paths will be returned by the draw_plots function.
 
-##Contributing
+## Contributing
 Feel free to contribute to this project by opening issues or pull requests.
 
-##License
+## License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 
